@@ -1,0 +1,138 @@
+<app-header type=service></app-header>
+
+<div class="section" data-aos="zoom-out" data-aos-once="true" data-aos-easing="linear" data-aos-duration="600">
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+      <h1 class="text-center"> {{services?.headerSection.title}}</h1>
+      <div class="m-t-30 m-b-30 tu-border"></div>
+      <p class="text-center"> {{services?.headerSection.description}}</p>
+      <div class="col-lg-2"></div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="smallnodisplay row m-t-20">
+    <div data-aos="fade-up" data-aos-easing="linear" data-aos-once="true" data-aos-duration="600"
+      class="display-flex alignItem flex-wrap-wrap" (mouseenter)="onMouseenter(i)" (mouseleave)="onMouseleave(i)"
+      (click)="routeToServices(item)" *ngFor="let item of services?.servicesItems; let i = index;">
+      <img class="bgNorepeat pointer" [style.opacity]="currectIndex === i? 0.5 : 0.1" [src]='item?.imagePath'>
+      <div class="pointer positionrel alignText p-l-30 p-r-30 text-center">
+        <h5> {{mouseHover}} {{item?.title[0]}} <br>{{item?.title[1]}}</h5>
+        <div class="p2">{{item?.description}}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bignodisplay m-t-20">
+    <div data-aos="fade-up" data-aos-easing="linear" data-aos-once="true" data-aos-duration="600"
+      class="display-flex alignItemsm flex-wrap-wrap" (mouseenter)="onMouseenter(i)" (mouseleave)="onMouseleave(i)"
+      (click)="routeToServices(item)" *ngFor="let item of services?.servicesItems; let i = index;">
+      <img class="bgNorepeat pointer" [style.opacity]="currectIndex === i? 0.5 : 0.1" [src]='item?.imagePath'>
+      <div class="pointer positionrel alignText p-l-30 p-r-30 text-center">
+        <h5> {{mouseHover}} {{item?.title[0]}} <br>{{item?.title[1]}}</h5>
+        <div class="p2">{{item?.description}}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <div  class="smallnodisplay section text-center p-l-60 p-r-60">
+  <app-headingDesc heading='Distributed responsibilities. One common goal.'
+    description='Each member of the Devunleash team has their own responsibilities, but we all work toward a common goal: providing you with a software solution that are the most beneficial for your businesses'>
+  </app-headingDesc>
+
+  <div class="sectionmm">
+    <div class="row">
+      <div class="col-lg-6 ">
+        <div class="dottedBorder m-l-85"></div>
+      </div>
+
+      <div class="col-lg-6 ">
+        <div class="dottedBorder m-r-85"></div>
+      </div>
+
+    </div>
+
+    <div class="display-flex">
+      <div class="p-r-100 display-flex content-center ">
+        <div class="dottedBox tittle f-200 l-h-200">
+          Customer
+        </div>
+        <div class="p-l-20 text-left">
+          <div class="p2 p-t-5">
+            Budget
+          </div>
+          <div class="p2 p-t-5">
+            Backlog
+          </div>
+          <div class="p2 p-t-5">
+            Quality requests
+          </div>
+          <div class="p2 p-t-5">
+            Domain knowledge
+          </div>
+          <div class="p2 p-t-5">
+            Business development
+          </div>
+        </div>
+      </div>
+      <div class=" display-flex content-center ">
+        <div class="dottedBox tittle f-200 l-h-200">
+          Product
+        </div>
+      </div>
+      <div class="p-l-100 display-flex content-center ">
+        <div class="p-r-20 text-right ">
+          <div class="p2 p-t-5">
+            Design
+          </div>
+          <div class="p2 p-t-5">
+            Architecture
+          </div>
+          <div class="p2 p-t-5">
+            Maintenance
+          </div>
+          <div class="p2 p-t-5">
+            Infrastucture
+          </div>
+          <div class="p2 p-t-5">
+            Development expertise
+          </div>
+
+        </div>
+        <div class="dottedBox tittle f-200 l-h-200">
+          Devunleash
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div> -->
+
+
+<div class="section bg-prime text-center m-b-60">
+  <app-headingDesc bgprime=true heading='Technology index'
+    description='We use modern, proven technologies and approaches to build performant and scalable digital products for mobile and web. Check out the technologies we rely on.'>
+  </app-headingDesc>
+  <div class="row">
+    <div data-aos="zoom-up" data-aos-easing="linear" data-aos-once="true" data-aos-duration="600"
+      class="col-lg-2 center-align text-center p-t-70 p-b-70" *ngFor="let item of data?.techstack">
+      <img class="techimgheight" [src]='item.imagePath'>
+      <div class="tittle p-t-30 p-b-30">{{item.title}}</div>
+    </div>
+  </div>
+  <app-button text="Explore our Tech Stack" (click)="routetopage('/technologies')" type=fill width="270px"
+    height="50px"></app-button>
+</div>
+
+
+<div class="section" data-aos="zoom-out" data-aos-easing="linear" data-aos-once="true" data-aos-duration="600">
+  <app-headingDesc heading='Need a skillful solution provider?' button="Talk to Us" (click)="routetopage('/contact')"
+    description="Tell us about your needs and challenges. We'll apply our broad-ranging expertise to develop the perfect solution for your business.">
+  </app-headingDesc>
+
+</div>
+<app-footer type=service></app-footer>

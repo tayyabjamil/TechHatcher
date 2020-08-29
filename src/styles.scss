@@ -1,0 +1,211 @@
+/* You can add global styles to this file, and also import other style files */
+@import "app/sass/index";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import './assets/animate.css';
+@import "~aos/dist/aos.css";
+body{
+    margin: 0;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+.bg-color{
+    color: $primary-color;
+}
+.bg-prime{
+    color: $secondary-color;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+  .smallnodisplay{
+    display: none !important;
+  }
+
+}
+@media screen and (min-width: 1025px) {
+  .bignodisplay{
+      display: none !important;
+  }
+}
+
+@font-face {
+	font-family: "RadikalW01-Light";
+	font-weight: normal;
+	font-style: normal;
+	src: url("assets/fonts/RadikalW01/Radikal-W01-Light-ef64a2f82f9ec9917176e2f3be7831c6cf7a43677bb0008d66b9bd7125d177b5.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: "RadikalW01-Regular";
+	font-weight: normal;
+	font-style: normal;
+	src: url("assets/fonts/RadikalW01/RadikalW01-Regular-34637b4beed35107b87f5f7596169dca345ab2e30a39059da72876de9e864c16.ttf") format("truetype")
+}
+
+@font-face {
+	font-family: "RadikalW01-Medium";
+	font-weight: normal;
+	font-style: normal;
+	src: url("assets/fonts/RadikalW01/Radikal-W01-Medium-58c4a02eec00edb7022cabf10b43d66e7e110f182a7895d84aec0c7d5ac6906d.ttf") format("truetype")
+}
+
+@font-face {
+    
+    font-family: "Radikal";
+    font-weight: 100;
+    font-style: italic;
+    src: url("assets/fonts/Radikal/radikal_ultrathin_italic-ae35b1708da5a68fe2113a07a2f667d30a338da8a7675e36fa62d26d181b2726.ttf") ; 
+}
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 200;
+    font-style: normal;
+    src: url("assets/fonts/Radikal/radikal_thin-ca2f0e1a80c946be663026f3360f7c79c0e6ad39b1d0f972f94806724740b9f9.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 200;
+    font-style: italic;
+    src: url("assets/fonts/Radikal/radikal_thin_italic-84a6c2b1897383de3b0a53fe86b1e218730b2f495e0bec21a01db8bac368cbdd.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 300;
+    font-style: normal;
+    src: url("assets/fonts/Radikal/radikal_light-8c1348a84dea1bc9e5349a7992d27ca288e914f0c7d6e43ea327df78a705f5b6.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 300;
+    font-style: italic;
+    src: url("assets/fonts/Radikal/radikal_light_italic-d6e6293379a3b896959fbfb282df1a9b79b92e507c5ef2e5a2fb5b5bcd76933c.ttf") ; 
+  }
+
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 400;
+    font-style: italic;
+    src: url("assets/fonts/Radikal/radikal_italic-1ae80ef94624f5b0ae10fe2080ce65feca085437fe1069b77f273ed715e3039e.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 500;
+    font-style: normal;
+    src: url("assets/fonts/Radikal/radikal_medium-281982bd26671fdfc5d90198a4fa56cb4bd7e76a39b8315bbaddd814c8a6e4e3.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 500;
+    font-style: italic;
+    src: url("assets/fonts/Radikal/radikal_medium_italic-4bce512c5f77f2f61630d690fb7eb9821f259bab90ea9173c0150f40ff946a2b.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 700;
+    font-style: normal;
+    src: url("assets/fonts/Radikal/radikal_bold-b4de725735f7e28d2bc23cd599eaf30065e3b0af6441de985cddaa3ebfb0a17b.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 700;
+    font-style: italic;
+    src: url("assets/fonts/Radikal/radikal_bold_italic-2165d3c5587036932812c95d0c2bd4f7aab07c678a7bfe374e7eef9097dd9e22.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 900;
+    font-style: normal;
+    src: url("assets/fonts/Radikal/radikal_black-38aec125f652fa77b339bbcd18b4ad5c5f9dfade67015ca19dcbd9adc788ebc9.ttf") ; 
+  }
+  @font-face {
+    
+    font-family: "Radikal";
+    font-weight: 900;
+    font-style: italic;
+    src: url("assets/fonts/Radikal/radikal_black_italic-ad1512482185be32ea28a4f06da5ae93fb99fff965bc8f63087a7358bbcb4f2b.ttf") ;
+  }
+
+
+
+
+
+
+
+  .section--top-home .particle-slider,
+  .section--top-company .particle-slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 15px;
+    z-index: 6;
+    margin: 7% 5%;
+  }
+  .section--top-company .particle-slider {
+    margin: 3% 5%;
+  }
+  @media (max-width: 768px) {
+    .section--top-company .particle-slider {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+  .section--top-home h1.section__title {
+    font-size: 66px;
+    margin-bottom: 30px;
+  }
+  @media (max-width: 768px) {
+    .section--top-home h1.section__title {
+      font-size: 36px;
+    }
+  }
+
+
+.section--top-home .particle-slider-mobile {
+  background: url('assets/techIcon/devLogo.png')
+    no-repeat center;
+  background-size: contain;
+}
+
+
+// .section--top-company .particle-slider-mobile {
+//   background: url(https://Devunleash.com/assets/backgrounds/company-hero-bg-d943ff0299db1c38543900a98ff1d266998e0f5be6be09c2ceb0953cbea384b0.png)
+//     no-repeat center 80%;
+//   background-size: 100% auto;
+// }
+
+
+
+/* You can add global styles to this file, and also import other style files */
+
+.animated-delay-1 {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    -o-animation-delay: 1s;
+}
+
+.animated-delay-2 {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    -o-animation-delay: 2s;
+}
+
+.animated {
+    visibility: visible !important;
+}
+.hide-on-init {
+    visibility: hidden;
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="73px" viewBox="0 0 67 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>A2406C3F-3858-432C-8AEB-AAA71A985D8F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="21" cy="33" r="5"></circle>
+    </defs>
+    <g id="Services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4_0_Services" transform="translate(-337.000000, -4476.000000)">
+            <g id="04" transform="translate(0.000000, 3921.000000)">
+                <g id="agile" transform="translate(134.000000, 555.000000)">
+                    <g transform="translate(201.000000, 0.000000)">
+                        <path d="M52.4726078,61 L48.3209715,61 C58.7752965,56.0174723 66,45.352446 66,33 C66,15.8791729 52.1208271,2 35,2 C17.8791729,2 4,15.8791729 4,33 C4,50.1208271 17.8791729,64 35,64 L35,66 C16.7746034,66 2,51.2253966 2,33 C2,14.7746034 16.7746034,0 35,0 C53.2253966,0 68,14.7746034 68,33 C68,44.8087192 61.7974903,55.1687648 52.4726078,61 Z" id="Combined-Shape" fill="#5E6064"></path>
+                        <circle id="Oval-57-Copy-18" stroke="#5E6064" stroke-width="2" fill="#23252C" cx="62" cy="50" r="4"></circle>
+                        <circle id="Oval-57-Copy-5" stroke="#23252C" stroke-width="3" fill="rgb(52, 119, 225)" cx="35" cy="65" r="6.5"></circle>
+                        <path d="M69,65 L42,65" id="Line" stroke="#5E6064" stroke-width="2" stroke-dasharray="2,2"></path>
+                        <path d="M35,47 L35,47 C27.2680136,47 21,40.7319864 21,33 C21,25.2680136 27.2680136,19 35,19 C42.7319864,19 49,25.2680136 49,33 C49,40.7319864 42.7319864,47 35,47 L35,47 L35,47 Z" id="Shape" stroke="#5E6064" stroke-width="2" stroke-dasharray="2,2" transform="translate(35.000000, 33.000000) rotate(4.000000) translate(-35.000000, -33.000000) "></path>
+                        <g id="Oval-57-Copy-18">
+                            <circle stroke="rgb(52, 119, 225)" stroke-width="2" stroke-linejoin="square" fill="#23252C" fill-rule="evenodd" cx="21" cy="33" r="4"></circle>
+                            <circle stroke="#23252C" stroke-width="1" cx="21" cy="33" r="5.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="70px" viewBox="0 0 67 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>6F6A27F1-10B7-4C1E-B6DE-9D7A49480AC8</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M24.8579448,47 C31.4853618,47 36.8579448,41.627417 36.8579448,35 C36.8579448,28.372583 31.4853618,23 24.8579448,23 C18.8604085,23 13.890518,27.3998748 13,33.1478975" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="23.8579448" height="24" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="5_0_Company" transform="translate(-1087.000000, -2449.000000)">
+            <g id="Group-3" transform="translate(0.000000, 2059.000000)">
+                <g id="icon_func" transform="translate(1085.000000, 390.000000)">
+                    <rect id="Rectangle-4" x="0" y="0" width="70" height="70"></rect>
+                    <circle id="Oval-Copy-2" stroke="#75767A" stroke-width="2" cx="25" cy="35" r="22"></circle>
+                    <circle id="Oval-Copy-8" stroke="#75767A" stroke-width="2" cx="51" cy="12" r="11"></circle>
+                    <circle id="Oval-Copy-9" stroke="#75767A" stroke-width="2" cx="55" cy="56" r="13"></circle>
+                    <use id="Oval-Copy-10" stroke="#75767A" mask="url(#mask-2)" stroke-width="4" stroke-dasharray="2,3" transform="translate(24.928972, 35.000000) rotate(180.000000) translate(-24.928972, -35.000000) " xlink:href="#path-1"></use>
+                    <circle id="Oval-57-Copy-9" fill="#0f4398" cx="25" cy="35" r="4"></circle>
+                    <circle id="Oval-57-Copy-9-Copy" fill="#75767A" cx="51" cy="12" r="4"></circle>
+                    <circle id="Oval-57-Copy-9-Copy-2" fill="#75767A" cx="55" cy="56" r="4"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

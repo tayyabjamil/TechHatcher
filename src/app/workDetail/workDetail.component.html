@@ -1,0 +1,112 @@
+<app-header type=workdetail ></app-header>
+
+<div class="section bg-prime">
+  <div class="text-center xh1 "> {{data?.title}}</div>
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8 text-center">
+      <div class="subtittle"> {{data?.description}}</div> 
+      
+    </div>
+    <div class="col-lg-2"></div>
+  </div>
+
+  <div class="display-flex content-center  m-t-60">
+    <div class="imgParams b-r-3 display-flex content-center"
+     data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="900"  [ngStyle]="{'background-image': 'url(' + data?.titlephoto + ')'}"> </div>
+  </div>
+
+  <div class="bottom190 bg-color">
+    <div>
+      <h4 class="bottom0 p-l-30">Project Summary </h4>
+    </div>
+  </div>
+  <div *ngIf="data?.needText" class="text-center bg-prime">
+    <h5 class="m-t--30"> {{data?.needText}}</h5>
+    <div class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div *ngFor="let item of data?.needParagraph" class="p-t-20 l-h-44 strongP">{{item}}</div>
+
+      </div>
+      <div class="col-lg-1"></div>
+
+    </div>
+  </div>
+</div>
+
+<div *ngIf="data?.solutiontitle" class="section p-l-100  p-r-100">
+  <h4 class="text-center">{{data?.solutiontitle}} </h4>
+  <div *ngFor="let item of data?.solitem">
+    <div class="row section">
+      <div class="col-lg-7 p-t-20">
+        <p class="primary-colorLight ">
+          {{item.title}}
+        </p>
+        <div *ngFor="let items of item?.details" class="p2 primary-colorDark p-t-20">
+          {{items}}
+        </div>
+      </div>
+      <div class="col-lg-5 imgwid p-l-30 m-t-30"data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="900"  [ngStyle]="{'background-image': 'url(' + item?.img + ')'}">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="data?.methodologyTitle" class="section  bg-prime ">
+  <h4 class="text-center">{{data?.methodologyTitle}} </h4>
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+      <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="900" *ngFor="let item of data?.methodologyParagraph" class="p-l-10 p-r-10 p-t-20 l-h-44 strongP">{{item}}</div>
+      <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="900" >
+        <p  *ngFor="let item of data?.methodology" class="p-l-10 p-r-10 p-t-20">{{item}}</p>
+      </div>
+    </div>
+    <div class="col-lg-2"></div>
+  </div>
+
+</div>
+
+<div *ngFor="let item of data?.moreSection" class="section p-l-100 p-r-100">
+  <h4 class=" text-center "> {{item.tittle}}</h4>
+  <div class="row p-t-20">
+    <div class="col-lg-7 ">
+      <div *ngFor="let items of item.desc">
+        <p class="p-t-40 l-h-44"> {{items}}</p>
+      </div>
+    </div>
+    <div class="col-sm-5 imgwid p-l-30 m-t-30"data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="900"  [ngStyle]="{'background-image': 'url(' + item?.imgPath + ')'}">
+    </div>
+  </div>
+
+</div>
+
+<div *ngIf="data.furtherMoreTittle" class="section p-l-100 bg-prime p-r-100">
+  <h4 class=" text-center "> {{data.furtherMoreTittle}}</h4>
+  <div *ngFor="let item of data?.furtherMore; let i = index">
+    <div class="row p-t-60" *ngIf="i % 2 == 0">
+      <div class="col-sm-5 imgwid m-t-30"data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="900"  [ngStyle]="{'background-image': 'url(' + item?.imagePath + ')'}">
+      </div>
+      <div class="col-lg-7 ">
+        <p class="text-center p-t-30 l-h-44"> {{item?.desc}}</p>
+      </div>
+    </div>
+    <div class="row p-t-60" *ngIf="i % 2 == 1">
+      <div class="col-lg-7 ">
+        <p class="text-center p-t-30 l-h-44"> {{item?.desc}}</p>    
+        </div>
+      <div class="col-sm-5 imgwid m-t-30"data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="900"  [ngStyle]="{'background-image': 'url(' + item?.imagePath + ')'}">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<div class="p-b-60 p-t-60">
+  <app-headingDesc button='Talk to Us' (click)="routetopage('/contact')"  heading='Need a skillful solution provider?' description='Tell us about your needs and challenges. We&#39;ll apply our broad-ranging expertise to develop the perfect solution
+  for your business.'></app-headingDesc>
+</div>
+
+<app-footer type=workdetail></app-footer>

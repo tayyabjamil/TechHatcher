@@ -1,0 +1,43 @@
+<app-header type=service></app-header>
+
+<div class="section">
+  <app-headingDesc [heading]='items.detailTitle' [description]='items.detailPageDescription'></app-headingDesc>
+</div>
+<div *ngIf="items?.keyfeatureHadding" class="section bg-prime">
+  <app-headingDesc bgprime=true [heading]='items.keyfeatureHadding' [description]='items.keyfeatures'>
+  </app-headingDesc>
+  <div class="row text-center ">
+    <div class="col-lg-4 p-l-40 p-r-40" *ngFor="let item of items.keyfeatureslist">
+      <img class="techimgheight p-b-30"
+        src="assets/services/icon-sensor-94d81058fc32a5c1cc0105bafebdce7841f5afd03d77579c257d7153bb95f437.svg">
+      <div class="tittle p-t-30">{{item.title}}</div>
+    </div>
+  </div>
+</div>
+<div class="section p-l-100 p-r-100">
+  <h3 class="text-center">{{items.howWedo}}</h3>
+  <div *ngFor="let item of items.detailFeatures; let i = index">
+    <div class="row p-t-100" *ngIf="i % 2 == 0">
+      <div class="col-sm-6 portfolioimg m-t-30" [ngStyle]="{'background-image': 'url(' + item.featureImg + ')'}">
+      </div>
+      <div class="col-lg-6 p-l-100">
+        <div class="tittle primary-colorDark p-b-30">  {{item.titles}}</div>
+        <div *ngFor="let items of item.detail">
+         <p class="p-t-10"> {{items.point}}</p>
+        </div>
+       
+      </div>
+    </div>
+    <div class="row p-t-100" *ngIf="i % 2 == 1">
+      <div class="col-lg-6">
+        <div class="tittle primary-colorDark p-b-30">  {{item.titles}}</div>
+        <div *ngFor="let items of item.detail">
+         <p class="p-t-10"> {{items.point}}</p>
+        </div>        
+      </div>
+      <div class="col-sm-6 portfolioimg m-t-30" [ngStyle]="{'background-image': 'url(' + item.featureImg + ')'}">
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer type=service></app-footer>

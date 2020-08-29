@@ -1,0 +1,89 @@
+@import "../../../sass/variable";
+
+
+.tubtn {
+    cursor: pointer;
+    background-color: transparent;
+    border: 0px solid transparent;
+    align-items: center;
+  }
+
+/////////////////FiLL Type Stylling//////////////////////
+
+.fill {
+  background-color: $link-color;
+  color: $primary-color;
+  border-color: $link-color;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  vertical-align: middle;
+  padding: 0px;
+  font-size: 18px;
+  border-radius: 50px;
+  font-weight: 300;
+
+}
+
+.fill:hover {
+  border-color: $link-color-Dark;
+  background-color: $link-color-Dark;
+}
+
+////////////////////Text Only Type////////////////////////
+
+.text-only {
+  color: $text-muted;
+  font-family: "Open Sans";
+  font-size: 18px;
+
+
+}
+
+.text-only:hover {
+  color: $secondary-color;
+}
+
+
+////////////////////outline-light Type////////////////////////
+
+.outline-light {
+  border-radius: 50px;
+  border: 1.7px solid $link-color;
+  color: $link-color;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  background-color: transparent !important;
+  vertical-align: middle;
+  padding: 0px;
+  font-size: 18px;
+  font-weight: 300;
+
+
+}
+
+.outline-light:hover {
+  color: $primary-color;
+  border: 1.7px solid $link-color;
+  background-color: $link-color !important;
+  box-shadow: $button-hover-shadow;
+}
+
+/////////////////Delete Type Stylling//////////////////////
+
+.deletebtn {
+  background-color: $error;
+  color: white;
+  border-color: $error;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.deletebtn:hover {
+  border-color: $error-light;
+  background-color: $error-light;
+}
+
+.deletebtn:focus {
+  box-shadow:$error-box-shadow;
+}
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>174B0BC6-E7C0-4B09-AA64-C92C6B714F4A</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ico100/box">
+            <g id="box">
+                <rect id="Rectangle-6" x="0" y="0" width="100" height="100"></rect>
+                <path d="M45,21 L45,40 L55,40 L55,21 L45,21 Z M43,19 L57,19 L57,40.85 C57,41.4851275 56.5522847,42 56,42 L44,42 C43.4477153,42 43,41.4851275 43,40.85 L43,19 Z" id="Rectangle-24" fill="#3D4049" fill-rule="nonzero"></path>
+                <path d="M18,35 L43,35 L43,21 L20.2727273,21 C19.0175347,21 18,22.0446689 18,23.3333333 L18,35 Z M20.4615385,19 L45,19 L45,37 L17.1153846,37 C16.4993747,37 16,36.4963203 16,35.875 L16,23.5 C16,21.0147186 17.9974988,19 20.4615385,19 Z" id="Rectangle-25" fill="#3D4049" fill-rule="nonzero"></path>
+                <path d="M57,21 L57,35 L82,35 L82,23.3333333 C82,22.0446689 80.9824653,21 79.7272727,21 L57,21 Z M55,19 L79.5384615,19 C82.0025012,19 84,21.0147186 84,23.5 L84,35.875 C84,36.4963203 83.5006253,37 82.8846154,37 L55,37 L55,19 Z" id="Rectangle-25-Copy" fill="#3D4049" fill-rule="nonzero"></path>
+                <path d="M78.862069,37 L58.71875,37 L58.71875,35 L81,35 L81,80.1111111 C81,80.6020309 80.5662759,81 80.03125,81 L19.96875,81 C19.4337241,81 19,80.6020309 19,80.1111111 L19,35 L41.28125,35 L41.28125,37 L21.137931,37 L21.137931,79 L78.862069,79 L78.862069,37 Z" id="Rectangle-26" fill="#3D4049" fill-rule="nonzero"></path>
+                <rect id="Rectangle-28" fill="#3D4049" x="51" y="60" width="20" height="2" rx="1"></rect>
+                <circle id="Oval" fill="#F3660D" cx="36" cy="58" r="5"></circle>
+                <rect id="Rectangle-28-Copy" fill="#3D4049" x="51" y="54" width="12" height="2" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

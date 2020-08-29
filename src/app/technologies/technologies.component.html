@@ -1,0 +1,70 @@
+<app-header type=technology></app-header>
+
+<div class="section" data-aos="zoom-out" data-aos-once="true" data-aos-easing="linear" data-aos-duration="600">
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+      <h1 class="text-center"> {{data?.headerSection.tittle}}</h1>
+      <div class="m-t-30 m-b-30 tu-border"></div>
+      <p class="text-center"> {{data?.headerSection.description}}</p>
+      <div class="col-lg-2"></div>
+    </div>
+  </div>
+</div>
+<div class="smallnodisplay section">
+  <app-headingDesc heading='We develop for these platforms'
+    description='Software that runs on a single platform can’t meet all the needs of modern businesses. We offer a wide range of services that cover a variety of platforms.'>
+  </app-headingDesc>
+
+  <div class="display-flex content-center">
+    <div  data-aos="fade-up" data-aos-once="true" data-aos-easing="linear" data-aos-duration="900" class="center-align text-center p-l-10 p-r-10 p-t-70 p-b-70" *ngFor="let item of data?.availtechstack">
+      <img class="techimgheight" [src]='item.imagePath'>
+      <div class="tittle p-t-30 p-b-30">{{item.title}}</div>
+    </div>
+  </div>
+</div>
+
+<div class="bignodisplay section">
+  <app-headingDesc heading='We develop for these platforms'
+    description='Software that runs on a single platform can’t meet all the needs of modern businesses. We offer a wide range of services that cover a variety of platforms.'>
+  </app-headingDesc>
+
+  <div class="content-center">
+    <div class="center-align text-center p-t-20" *ngFor="let item of data?.availtechstack">
+      <img class="techimgheight" [src]='item.imagePath'>
+      <div class="tittle p-t-10">{{item.title}}</div>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <app-headingDesc heading='Technology index'
+    description='We use modern technologies that allow us to expertly extend and scale our products.'>
+  </app-headingDesc>
+
+  <div class="p-t-60 text-center">
+    <div *ngFor="let item of data?.technologyItems">
+      <h2 class="p-t-30 muted-color">{{item.title}} </h2>
+      <div data-aos="fade-up"  data-aos-once="true" data-aos-easing="linear" data-aos-duration="500">
+        <div *ngFor="let items of item.subTitle">
+          <h6>{{items.title}}</h6>
+          <div class="m-t-10 m-b-60 borderbottom"></div>
+          <div class="row">
+            <div data-aos="fade-up" data-aos-once="true" data-aos-easing="linear" data-aos-duration="900"
+              class="col-lg 2 p-t-10 p-b-10" *ngFor="let tech of items.technologies">
+              <img class="logo" [src]="tech.icon" alt="">
+              <h6 class="p-t-20 p-b-60">{{tech.title}}</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="p-b-60">
+  <app-headingDesc button='Talk to Us' bgprime=true (click)="routetopage('/contact')"
+    heading='Need a skillful solution provider?' description='Tell us about your needs and challenges. We&#39;ll apply our broad-ranging expertise to develop the perfect solution
+  for your business.'></app-headingDesc>
+</div>
+<app-footer type=technology></app-footer>

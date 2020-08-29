@@ -1,0 +1,27 @@
+<div *ngIf="isAnimation === 'true'" 
+    data-aos="fade-up" 
+    data-aos-once="true" 
+    data-aos-easing="ease-out" 
+    data-aos-duration="600"
+    >
+    <button (click)="clickEvent($event)" [style.height]="height" [style.width]="width"
+        [style.backgroundColor]="backgroundColor" class="tubtn {{class}}" [ngClass]="{ 
+    'fill':type === 'fill',
+    'outline-light' :type === 'outline',
+    'text-only':type === 'textOnly', 
+    'deletebtn': type ==='deletebtn'
+    }">
+        {{text}}
+    </button>
+</div>
+ <div *ngIf="isAnimation === 'false'">
+    <button (click)="clickEvent($event)" [style.height]="height" [style.width]="width"
+        [style.backgroundColor]="backgroundColor" class="tubtn {{class}}" [ngClass]="{ 
+    'fill':type === 'fill',
+    'outline-light' :type === 'outline',
+    'text-only':type === 'textOnly', 
+    'deletebtn': type ==='deletebtn'
+    }">
+        {{text}}
+    </button>
+</div> 

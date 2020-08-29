@@ -1,0 +1,37 @@
+<app-header type=about></app-header>
+<div class="section" data-aos="zoom-out" data-aos-easing="linear" data-aos-duration="900" >
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+      <h1 class="text-center"> {{companyProfile?.headerSection.title}}</h1>
+      <div class="m-t-30 m-b-30 tu-border"></div>
+      <p class="text-center"> {{companyProfile?.headerSection.description}}</p>
+      <div class="col-lg-2"></div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <h2 class="text-center p-l-30 p-r-30"> 4 years on the market </h2>
+  <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+      <p> Our area of expertise ranges from solutions to support . We tend to specialize in understanding the key
+        challenges faced by industry so that our products and services can benefit organization.</p>
+    </div>
+    <div class="col-lg-2"></div>
+  </div>
+
+</div>
+<div class="section bg-prime m-b-60">
+  <h2 class="text-center p-l-30 p-r-30"> A safe pair of hands </h2>
+  <div class="row m-t-10 m-b-10 text-center">
+    <div class="col-lg-4 p-l-40 p-r-40 p-t-40" *ngFor="let item of companyProfile?.steps">
+      <img class="techimgheight p-b-30" [src]='item.icon'>
+      <h6>{{item.title}}</h6>
+      <p class="p2 p-t-30 p-b-30 m-t-10">{{item.description}}</p>
+      <app-button [text]="item.btnText" (click)="routetopage(item.route)" type=fill width="250px" height="50px">
+      </app-button>
+    </div>
+  </div>
+</div>
+<app-footer type=about></app-footer>

@@ -1,0 +1,23 @@
+<div 
+    class="text-center" 
+    [ngClass]="{'bg-prime p-t-60 p-b-60': bgprime , 'bg-color': !bgprime}">
+
+    <h2 class="text-center p-l-30 p-r-30"> {{heading}} </h2>
+
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <p> {{description}}</p>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+
+    <div class="p-t-30" *ngIf="bgprime && button">
+        <app-button [text]="button" type=fill (click)="clickEvent($event)" [width]="btnwidth" [height]="btnheight">
+        </app-button>
+    </div>
+    <div class="p-t-30" *ngIf="!bgprime && button">
+        <app-button [text]="button" type=outline (click)="clickEvent($event)" [width]="btnwidth" [height]="btnheight">
+        </app-button>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+@import "../sass/variable";
+
+.tu-border{
+    border-color: $link-color;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+.techimgheight{
+    height: 36vh;
+    @media screen  and (max-width: 769px){
+        max-width: 70vw;
+    }
+}
+.logo{
+    height: 14vh;
+    
+}
+.borderbottom{
+    border-bottom: 4px solid $link-color;
+    margin-left: 40vw;
+    margin-right: 40vw;
+}

@@ -1,0 +1,22 @@
+@import '../../../sass/variable';
+
+.devheader{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-right: 25px;
+    width: 100%;
+}
+.logo__img{
+    height: 50px;
+}
+.activate{
+    border-bottom: 1px solid $link-color;
+}
+.navLink{
+word-spacing: 3px;
+}
+.navLink:hover{
+    border-bottom: 1px solid $link-color;
+
+}

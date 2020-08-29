@@ -1,0 +1,66 @@
+@import "../sass/variable";
+
+.tu-border{
+    border-color: $link-color;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+.bgNorepeat{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 100%;
+}
+.bgNorepeat:hover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 430px;
+    width: 100%;
+}
+.positionrel {
+    position: relative;
+    bottom: 430px;
+    margin-bottom: -350px;
+}
+.col-lg-4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.alignItem {
+    width: 33.3%;
+}
+.alignItemsm {
+    width: 100%;
+}
+.alignText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex-wrap-wrap {
+    flex-wrap: wrap;
+}
+.dottedBox{
+    border: 1px dotted $link-color;
+    height: 180px;
+    width: 15vw;
+    background-image: linear-gradient(#16181c,$link-color-Dark, $link-Bg);
+    z-index: 2;
+}
+.dottedBorder{
+    border: 1px dotted $primary-Dark;
+    height: 300px;
+    position: relative;
+    left: 0px;
+    top: 250px;
+    bottom: 1px;
+    z-index: 1;
+
+}
+.sectionmm{
+    margin-top: -150px;
+    padding-bottom: 60px;
+}

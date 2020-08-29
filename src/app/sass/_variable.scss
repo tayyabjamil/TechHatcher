@@ -1,0 +1,142 @@
+
+//primary colors
+$primary-color:rgb(240, 240, 240);
+$primary-Light:white;
+$primary-Dark:rgb(228, 220, 220);
+
+$secondary-color:rgb(0, 0, 0);
+$secondary-Light:#4f525e;
+$text-muted: rgb(196, 203, 209);
+
+$bg-color:#121219;
+
+$link-color: rgb(52, 119, 225);
+$link-Bg: rgb(16,95,220);
+$link-color-Dark: rgb(14, 87, 216);
+
+// $link-color: rgb(107, 17, 156);
+// $link-Bg: rgb(150, 38, 211);
+// $link-color-Dark: rgb(85, 14, 124);
+
+$border-color:rgb(49, 48, 48);
+$error : rgb(255, 40, 40);
+
+//link colors schems
+// $link-color-light: rgb(52, 119, 225);
+// $link-color: white;
+// $link-color-dark: rgb(14, 87, 216);
+// $link-color-bg: rgba(33, 110, 235, 0.1);
+// $link-color-bg-dark: rgba(13, 87, 206, 0.705);
+
+
+
+
+// $background-color: rgb(246,250,253);
+// $dark-bg-color: rgb(143, 180, 238);
+// $muted-background: rgb(231,241,251);
+
+// $opacity-bg:rgba(0, 0, 0, 0.12);
+
+
+// //Border color Sceheme
+$grayBorder:rgb(196, 206, 209);
+$grayBorderlight:rgb(244, 244, 245);
+$buttonBorder:rgb(218, 229, 233);
+// $border-color: rgb(219,230,249);
+$border-color-dark: rgb(181, 181, 181);
+$border-color-light: rgb(237,242,248);
+
+
+//BOX SHADOW
+
+$error-box-shadow: 0px 0px 5px 1px  rgba(247, 114, 114, 0.5);
+$transparent-box-shadow: 0px .8px 0px .8px  rgba(255, 255, 255, 0.5);
+$help-box-shadow: 0px 1px 0px 1px  rgba(182, 251, 255, 0.5);
+
+$button-box-shadow: 0px 0px 1px 0px rgba(38, 121, 251, 0.3);
+$button-hover-shadow: -1px 1px 7px 0px rgba(38,121,251, 0.3);
+$success-btn-shadow:0px .7px 0px .7px  rgba(38,121,251, 0.3);
+
+$inputFocus:rgb(155, 207, 255);
+$success-box-shadow: 0px 0px 5px 1px rgba(93, 152, 247, 0.3);
+
+$fill-box-shadow: 0px 1px 0px 1px  rgba(38,121,251, 0.3);
+
+
+$div-shadow:rgb(189, 203, 207);
+
+
+
+$button-bg-color:rgb(251, 251, 251);
+$loginbg : rgba(245, 246, 247,1);
+$dropdown-bg-color:rgb(115, 121, 127);
+
+$highlight-color:rgb(233, 247, 255);
+$dark-dropdown: rgb(88, 93, 100);
+$icon-del: rgb(169,179,184);
+$notifier-bg:rgb(239, 241, 238);
+
+$light-muted:rgb(168, 176, 181);
+$active:rgb(78, 137, 248);
+$infoside: rgb(250, 252, 252);
+
+$transparent-color: rgba(255, 245, 245, 0.219); 
+$info-color:rgb(156, 236, 240);
+
+// //Error colors
+
+// $error : rgb(255, 40, 40);
+$error-light : rgb(255, 60, 60);
+$error-opacity : rgba(255, 219, 219, 0.863);
+
+
+// $blue-color:rgb(75, 130, 255);
+
+
+// // list 
+
+// $list-border-bottom :rgb(235, 237, 239);
+
+// //tabs
+
+// $tab-bg-color:rgb(231,241,250);
+// $tab-hover-color: rgb(199, 225, 247);
+// $tab-text-color:rgb(96, 96, 96);
+
+// //drawer
+
+// $drawer-heading-color:rgba(196,208,217,1) ;
+// $drawer-background-color: rgba(29,43,53,1);
+// $drawer-item-color: rgba(131,156,175,1);
+// $drawer-item-active-color: rgba(255,255,255,1);
+
+// //active icon color
+
+// $aqua-color: rgba(24,198,244,1);
+// $aquamarine-color:rgb(99, 225, 231);
+// $apricot-color: rgba(239,122,63,1);
+// $palegreen-color: rgb(140, 175, 91);
+// $white-color: rgb(255, 255, 255);
+// $apricot-colorl: rgb(255, 191, 159);
+// $palegreen-color: rgb(140, 175, 91);
+// $checkbox-color: rgba(199,209,212,1);
+
+// //font family 
+
+// $raleway: 'Raleway';
+// $open-sans:'open sans';
+
+// // sidenav 
+// $header-bg-color :#ffffff;
+// $main-nav-bg : #ffffff;
+// $main-nav-color :rgb(142, 142, 142);
+// $sec-nav-bg :#ffffff;
+// $nav-inactive-text :#ffffff;
+
+// // bottom bar 
+
+// $bottom-bar-list:rgba(231,241,250, 0.87);
+
+
+
+// $suscsNotifcation:rgb(53, 165, 43);

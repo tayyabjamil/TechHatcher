@@ -1,0 +1,62 @@
+<div class=" section" 
+    [attr.data-aos]="animationClass" 
+    data-aos-duration="1000"
+    data-aos-anchor-placement="top-bottom"
+    data-aos-easing="ease">
+    <div *ngFor="let item of workings?.workitems; let i = index">
+  
+      <div class="row p-t-100 p-l-100 p-r-100" *ngIf="i === 0">
+        <div class="col-lg-5 portfolioimg m-t-30" [ngStyle]="{'background-image': 'url(' + item?.imagePath + ')'}">
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5 " data-aos-id="portfolio0" data-aos="fade-up" data-aos-easing="ease-out" data-aos-offset="300" data-aos-duration="600">
+          <h2> {{item?.title}}</h2>
+          <div class="tittle "> {{item?.description}}</div>
+          <div class="display-flex flex-wrap-wrap p-t-30 p-b-30">
+            <div *ngFor="let item of item.proServices" class="m-b-5">
+              <app-badges [text]=item></app-badges>
+            </div>
+          </div>
+          <p class="p-b-20">{{item.detailPage}}</p>
+          <app-button isAnimation="false" text="See full case study" (click)="routetoDetail(item.title)" type=outline width="250px"
+            height="50px"></app-button>
+        </div>
+      </div>
+  
+      <div class="row p-t-100 p-l-100 p-r-100" *ngIf="i == 1" >
+        <div class="col-lg-5" data-aos-id="portfolio1" data-aos="fade-up" data-aos-easing="ease-out" data-aos-offset="300" data-aos-duration="600">
+          <h2> {{item?.title}}</h2>
+          <div class="tittle  p-b-30"> {{item?.description}}</div>
+          <div class="display-flex flex-wrap-wrap p-t-30 p-b-30">
+            <div *ngFor="let item of item.proServices" class="m-b-5">
+              <app-badges [text]=item></app-badges>
+            </div>
+          </div>
+          <p class="p-b-20">{{item.detailPage}}</p>
+          <app-button isAnimation="false" text="See full case study" (click)="routetoDetail(item.title)" type=outline width="250px"
+            height="50px"></app-button>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5 portfolioimg m-t-30" [ngStyle]="{'background-image': 'url(' + item?.imagePath + ')'}">
+        </div>
+      </div>
+  
+      <div class="row p-t-100 p-l-100 p-r-100" *ngIf="i === 2">
+        <div class="col-lg-5 portfolioimg m-t-30" [ngStyle]="{'background-image': 'url(' + item?.imagePath + ')'}">
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-5 " data-aos-id="portfolio2" data-aos="fade-up" data-aos-easing="ease-out" data-aos-offset="300" data-aos-duration="600">
+          <h2> {{item?.title}}</h2>
+          <div class="tittle"> {{item?.description}}</div>
+          <div class="display-flex flex-wrap-wrap p-t-30 p-b-30">
+            <div *ngFor="let item of item.proServices" class="m-b-5">
+              <app-badges [text]=item></app-badges>
+            </div>
+          </div>
+          <p class="p-b-20">{{item.detailPage}}</p>
+          <app-button isAnimation="false" text="See full case study" (click)="routetoDetail(item.title)" type=outline width="250px"
+            height="50px"></app-button>
+        </div>
+      </div>
+    </div>
+  </div>

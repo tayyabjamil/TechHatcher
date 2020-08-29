@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>A091F548-A42F-4FE8-9C36-55B93FCADA9E</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <circle id="path-1" cx="15" cy="21" r="5"></circle>
+        <circle id="path-2" cx="55" cy="45" r="5"></circle>
+    </defs>
+    <g id="Services" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4_0_Services" transform="translate(-1035.000000, -4476.000000)">
+            <g id="04" transform="translate(0.000000, 3921.000000)">
+                <g id="comm" transform="translate(835.000000, 555.000000)">
+                    <g id="Communications" transform="translate(200.000000, 0.000000)">
+                        <path d="M2,19.9880373 L2,19.9880373 L0,21.9804688 L0,10.9973046 C0,4.92366097 4.91714125,0 11.0040337,0 L22.0639648,0 L20.0563675,2 L11.0040337,2 C6.0249971,2 2,6.02494416 2,10.9973046 L2,19.9880373 L2,19.9880373 Z M50.1889425,2 L50.1889425,2 L48.1713867,0 L58.9930855,0 C65.0720365,0 70,4.92494056 70,10.9968026 L70,21.6386719 L68,19.6560749 L68,10.9968026 C68,6.02935988 63.9673161,2 58.9930855,2 L50.1889425,2 L50.1889425,2 Z M68,50.1139009 L68,50.1139009 L70,48.1142578 L70,58.998299 C70,65.0743707 65.065203,70 58.9969486,70 L48.1103516,70 L50.1107085,68 L58.9969486,68 C63.9638864,68 68,63.96655 68,58.998299 L68,50.1139009 L68,50.1139009 Z M20.080691,68 L20.080691,68 L22.1225586,70 L10.9997163,70 C4.92474074,70 0,65.0817799 0,59.0046161 L0,48.3310547 L2,50.2900456 L2,59.0046161 C2,63.9753229 6.0274219,68 10.9997163,68 L20.080691,68 L20.080691,68 Z" id="Shape" fill="#5E6064"></path>
+                        <path d="M60,59 L10,59" id="Line" stroke="#5E6064" stroke-width="2" stroke-dasharray="2,2"></path>
+                        <rect id="Rectangle-6" stroke="rgb(52, 119, 225)" stroke-width="2" fill="#23252C" x="11" y="11" width="38" height="10" rx="4"></rect>
+                        <g id="Oval-57-Copy-24" stroke-width="2">
+                            <circle stroke="rgb(52, 119, 225)" stroke-linejoin="square" fill="#23252C" fill-rule="evenodd" cx="15" cy="21" r="4"></circle>
+                            <circle stroke="#23252C" cx="15" cy="21" r="6"></circle>
+                        </g>
+                        <rect id="Rectangle-6" stroke="#5E6064" stroke-width="2" fill="#23252C" x="21" y="35" width="38" height="10" rx="4"></rect>
+                        <g id="Oval-57-Copy-18" stroke-width="2">
+                            <circle stroke="#5E6064" stroke-linejoin="square" fill="#23252C" fill-rule="evenodd" cx="55" cy="45" r="4"></circle>
+                            <circle stroke="#23252C" cx="55" cy="45" r="6"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
