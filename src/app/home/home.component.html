@@ -1,25 +1,30 @@
 <app-header></app-header>
-<div class="p-t-85">
-
-  <div class="display-flex align-items-center justify-content-center">
-    <!-- https://particleslider.com/ -->
-    <!-- https://codepen.io/zaslam/pen/qBdLeyx -->
-    <!-- https://particleslider.com/js/particleslider/current/particleslider.js -->
-    <!-- https://github.com/N-W-Turash/particle-slider-demo -->
-    <div id="particle-slider">
-      <div class="slides">
-        <div class="slide" data-src="assets/D-Day-thick-White-Edges-v2.png">
+<div  style="padding-top: 12%;padding-left: 2%;">
+<div>
+ <div class="smallnodisplay" *ngFor="let item of workings?.workitems; let i = index">
+  
+    <div class="row p-t-15 " data-aos="fade-down-left" data-aos-once="true" data-aos-easing="linear" data-aos-duration="900" *ngIf="i % 2 == 0">
+      <div class="col-lg-5">
+        <h2 style="padding-left: 5%;padding-top: 7%;" data-aos="zoom-in" data-aos-once="true" data-aos-easing="linear" data-aos-duration="3=00">Tech Heatcher <br> <span class="p-l-250"> We are here for you </span></h2>
+  
+      </div>
+      <div class="col-lg-6 pointer workBoxSize" (click)="routeto(item.title)"
+        [ngStyle]="{'background-color': item?.themeColor }">
+        <div class="portfolioimg">
+            <img class="portfolioimg" [src]='item?.imagePath'>
         </div>
       </div>
-      <canvas class="draw" width="800" height="400"></canvas>
     </div>
   </div>
+
+  
+</div>
+  
 </div>
 
 
 <div class="section text-center anchor1">
   <div data-aos="zoom-in-up" data-aos-once="true" data-aos-easing="ease-out">
-    <app-headingDesc [heading]='heading' [description]='description'></app-headingDesc>
   </div>
 
   <div class="row">
@@ -31,19 +36,17 @@
     </div>
   </div>
 
-  <app-button text="Explore our services" (click)="routetopage('/services')" type=fill width="250px" height="50px">
-  </app-button>
-
-</div>
+ 
+</div>  
 
 
 <app-portfolio-highlight animationClass="tu-color-animation"></app-portfolio-highlight>
 
 <div class="p-t-30 p-b-100">
-  <app-headingDesc heading='Check out more DevUnleash work'
+  <!-- <app-headingDesc heading='Check out more TechHatcher work'
     description='We have built exciting other projects to help businesses address their problems across broad range of industries.'
     button='Explore our Portfolio' (click)="routetopage('/works')" btnwidth='270px'>
-  </app-headingDesc>
+  </app-headingDesc> -->
 </div>
 <div class="section text-center .other-element1">
   <app-headingDesc heading='Apps for all screens'
@@ -82,8 +85,8 @@
     </div>
 
   </div>
-  <app-button text="Explore our Tech Stack" (click)="routetopage('/technologies')" type=outline width="270px"
-    height="55px"></app-button>
+  <!-- <app-button text="Explore our Tech Stack" (click)="routetopage('/technologies')" type=outline width="270px" -->
+    <!-- height="55px"></app-button> -->
 </div>
 
 <div class="p-b-60">

@@ -77,13 +77,13 @@ export class DataService {
 
   workPage = {
     workitems: [
-      {
+      {  
         id: 0,
         title: 'TradeUnleashed',
         description: 'Supply chain platform for manufacturers, distributors & retailers.',
         detailPage: 'TradeUnleashed wanted to automate its supply chain by connecting all their trade partners and team on single platform. We helped design & build a platform that provides all stake holders with real-time information access & enables on-the-go decision making.',
-        imagePath: 'assets/portfolio/tuportfolio6.png',
-        themeColor: '#1476dd',
+        imagePath: 'assets/portfolio/work3.jpg',
+        themeColor: '',
         proServices: ['SupplyChain', 'Web', 'iOS', 'Android'],
         titlephoto: 'assets/portfolio/tu.png',
         needText: 'The Need',
@@ -91,8 +91,8 @@ export class DataService {
           ['A big manufacturer company wanted to develop a supply chain platform where they can connect to their trade partners and sales team in real-time and exchange business and transaction information on-the-go. With real-time information access, on-the-go decision making and control and visibility across supply entire supply chain, they would be able to increase business efficiency and reduce loss & leakage', 'Every person in the team would have access to up-to-date real-time information on his finger-tips for on-the-go decision making, better stock management and sales automation. It would avoid delays, reduce leakage and increase business efficiency.'],
         solutiontitle: 'WHICH BUSINESSES IT HELPS',
         solitem: [{
-          img: 'assets/portfolio/tuportfolio6.png',
-          title: '', details:
+          img: 'assets/portfolio/work4.jpg',
+          title: '', details:  
             [
               'Help manufacturers keep track of their inventories, sales and payment recoveries across their trade partners in real-time. Help reduce inventory cost, reduce wastage, increase sales and eliminate the cost and headache of manual operation. ',
               'Help manufacturers and distributors keep track of their team’s performance and activities in real-time.',
@@ -131,8 +131,8 @@ export class DataService {
         id: 1,
         title: 'HireGoat',
         description: 'Next generation video based recruitment platform',
-        imagePath: 'assets/portfolio/fhprotfolio2.png',
-        themeColor: '#e77621',
+        imagePath: 'assets/portfolio/work2.jpg',
+        themeColor: '#90b534',
         detailPage: 'HireGoat wanted to develop a platform to eliminate recruitment overhead and replace boring / ineffective CVs with video based system where smiles & personality count first. We created two apps - for hiring company and for candidates - to simplify and speed up recruiting.',
         proServices: ['Recruitment', 'iOS', 'Android'],
         titlephoto: 'assets/portfolio/fhportfolio.png',
@@ -181,41 +181,7 @@ export class DataService {
         portfolioimage1: 'assets/content/work_cases/fhportfolio.png',
         portfolioimage2: 'assets/content/work_cases/fhportfolio1.png',
       },
-      {
-        id: 2,
-        title: 'Moving.ful',
-        description: 'A marketplace to book moves and earn commission',
-        imagePath: 'assets/portfolio/mfportfolio2.png',
-        themeColor: '#34aca0',
-        detailPage: 'A USA moving company was looking to improve sales through marketplace for online booking & referral system. We helped them build an online moving booking & payment system  as well as commission management app for their sponsors, ambassadors & agents.',
-        proServices: ['Web', 'Moving', 'USA'],
-        titlephoto: 'assets/portfolio/mfportfolio1.png',
-        needText: 'The Need',
-        needParagraph:
-          ['Movingful is a marketplace where customers can book their moves online with intuitive and automated flows for different types of move bookings. The aim of the platform is to increase sale bookings and offload call-centre agents by replacing their manual work with automated flow in place.', 'Part of suite is also a commission management app that lets sponsors, ambassadors and agents share moves through the system and manage their sales commission and status of their bookings in real-time. They can further share their profit down their sub-agents and earn well while increasing sales booking for the company.'],
-        solutiontitle: 'WHICH BUSINESSES IT HELPS',
-        solitem: [
-          { img: 'http://tirthainfotech.com/wp-content/uploads/2019/10/mobile-application.png', title: 'Book Moves Online', details: ['Its guides customers to book their moves online through an intuitive and easy to follow steps. It shows users’s different journeys based on the type and size of moves they select. For smaller moves, it offers customers direct payment or installation plans to help them complete end-to-end process online from booking till payment.'] },
-          { img: 'http://tirthainfotech.com/wp-content/uploads/2019/10/mobile-application.png', title: 'Agents can share moves', details: ['Commission app lets ambassadors and agents recommend and share moves easily via SMS, email or social media. It helps them keep complete record of their earnings, move and payment statuses in real-time'] },
-          { img: 'http://tirthainfotech.com/wp-content/uploads/2019/10/mobile-application.png', title: 'Manage commission structure', details: ['Sponsors and Ambassadors can manage their commission structure for their sub-agents down the tree any time right form the app and it will start reflecting in their future moves they referred.'] },
-        ],
-
-        methodologyTitle: 'HOW WE BUILT THE SYSTEM',
-        methodologyParagraph: ['Our product design and development team worked closely with the client to ensure we thoroughly understand their business needs and objectives. Based on their requirements, we designed & built the system compromising these components & tools.'],
-        moreSection: [
-          // { tittle: '', imgPath: '', desc:[''] },
-          // { tittle: '', imgPath: '', desc:[''] },
-          // { tittle: '', imgPath: '', desc:[''] },
-        ],
-        furtherMoreTittle: 'UX Design Challenges',
-        furtherMore: [
-          { desc: 'Our team truly understands the value a good UI/UX plays in the success of a product. We faced an interesting challenge in front as we strove to build a large and scalable platform that would automate and digitise complex supply chain operations for different type of businesses involved and platforms. We wanted to make sure system is easily navigable and all information is visible to user in clean and optimised way.', imagePath: 'http://tirthainfotech.com/wp-content/uploads/2019/10/mobile-application.png' }
-        ],
-        tech: 'NativeScript',
-        techlogo: 'assets/content/work_cases/nstu.png',
-        portfolioimage1: 'assets/content/work_cases/mfportfolio.png',
-        portfolioimage2: 'assets/content/work_cases/mfportfolio1.png',
-      },
+     
 
     ],
     morewrkingPage: [
@@ -361,15 +327,7 @@ export class DataService {
               { title: 'MongoDB', icon: 'assets/techIcon/mongo.png' },
             ]
           },
-          {
-            title: 'Message brokers',
-            technologies: [
-              { title: 'ActiveMQ', icon: 'assets/techIcon/activemq.png' },
-              { title: 'RabbitMQ', icon: 'assets/techIcon/rabbitmq.png' },
-              { title: 'Redis', icon: 'assets/techIcon/redis.png' },
-              { title: 'Kafka', icon: 'assets/techIcon/kafka.png' },
-            ]
-          },
+        
         ],
       },
       {
@@ -389,27 +347,8 @@ export class DataService {
             ]
           },
 
-          {
-            title: 'Testing and Automation',
+        
 
-            technologies: [
-              { title: 'Gitlab CLI', icon: 'assets/techIcon/github.svg' },
-              { title: 'Jenkins', icon: 'assets/techIcon/jenkins.png' },
-              { title: 'CircleCI', icon: 'assets/techIcon/circleci.png' },
-              { title: 'BitBucket', icon: 'assets/techIcon/bitbucket.png' },
-            ]
-          },
-
-          {
-            title: 'Data analytics and business intelligence',
-
-
-
-            technologies: [
-              { title: 'Powerbi', icon: 'assets/techIcon/powerbi.png' },
-              { title: 'Pyton', icon: 'assets/techIcon/python.png' },
-            ]
-          },
 
         ],
       },
@@ -432,54 +371,14 @@ export class DataService {
 
 
     servicesItems: [
-      {
-        id: 0,
-        title: ['Blockchain', 'Solutions'],
-        routeTo: 'blackChain',
-        imagePath: "assets/servicesBg/blockchain.png",
-        description: 'DevUnleash provides custom-tailored blockchain solutions. From supply-chain blockchain to complete ledgers and exchanges, we design and develop a wide range of blockchain solutions. ',
-        detailTitle: 'Blockchain Technology Solutions',
-        detailPageDescription: 'Blockchain is a key component of the decentralized computing paradigm. It is a better computing topology for the increasingly privacy-conscious consumers in the software industry. We offer blockchain solutions for a wide variety of problems. It can be anything from a simple decentralized transaction management system to a full-fledged crypto exchange. If you need any custom decentralized solution we’ll be the right match for you. ',
-        keyfeatureHadding: 'Key features',
-        keyfeatures: 'We work with the following technologies:',
-        keyfeatureslist: [
-          { title: 'Smart Contract', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: 'Private Blockchain', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: 'Hyperledger', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-        ],
-        howWedo: 'How we do It',
-        detailFeatures: [
-          { titles: 'Prototype', featureImg: '', detail: [{ point: 'We employ a rigorous design process from simple sketches and flows to developing design prototypes with advanced animations and interactions. You approve of our designs before we start developing them.' }] },
-          { titles: 'Develop', featureImg: '', detail: [{ point: 'We pride ourselves in our clean coding and architecture capabilities to develop performant applications.' }] },
-          { titles: 'Deliver', featureImg: '', detail: [{ point: 'We deliver products in short cycles using a continuous delivery approach. This delivers rapid value to businesses and helps reduce business risks associated with product releases.' }] }
-        ]
-      },
+     
 
-      {
-        id: 1,
-        title: ['IOT', 'Development'],
-        imagePath: "assets/servicesBg/iot.png",
-        description: 'We have the expertise to create visualization dashboards and management applications for IoT frameworks. We can also integrate our solutions with various IoT gateways.',
-        detailTitle: 'IOT Development',
-        detailPageDescription: 'With the advent of modern IoT technologies, harnessing the real-time sensor data and visualizing it has become increasingly important. Controlling your equipment remotely from virtually anywhere eases the physical workforce and makes the management easier. We provide custom-tailored solutions for IoT dashboards and management consoles.',
-        keyfeatureHadding: 'Key features',
-        keyfeatures: 'How we do It',
-        keyfeatureslist: [
-          { title: 'rototype', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: 'Develop', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: 'Deliver', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-        ],
-        howWedo: '',
-        detailFeatures: [
-          { titles: 'Visualiz & Control Dashboards', featureImg: '', detail: [{ point: 'Our visualization dashboards for IoT come from our BI and Web/Mobile application expertise. We provide full-fledged visualization and control dashboards with the ability to integrate with various IoT gateways for data manipulation. We provide end-to-end solutions from design to implementation for web applications, mobile applications, and desktop applications. ' }] },
-          { titles: 'Management Consoles', featureImg: '', detail: [{ point: 'Managing multiple users and tenants in a single app provides you with the flexibility of using the same application instance/s for multiple teams/tenants hence reducing the maintenance cost. We provide detailed multi-tenant user management and sensor/controller management consoles tailored for your specific requirements.' }] },
-        ]
-      },
-
+  
+ 
       {
         id: 2,
         title: ['Mobile', 'Development'],
-        imagePath: "assets/servicesBg/mobile.png",
+        imagePath: "assets/servicesBg/android2.jpg",
         description: 'We have the expertise to devise and build native, cross-platform and hybrid mobile applications for android and iOS.',
         detailTitle: 'Mobile Application Development',
         detailPageDescription: 'Smartphones have changed the way we interact with data. Having a custom mobile application for your software solutions has never been more important to reach a bigger audience. The sheer magnitude of users for smartphones dictates an impelling need for the mobile presence. We help you build beautiful word-class mobile applications for all mobile platforms - iOS, iPad, Android, tablets',
@@ -502,7 +401,7 @@ export class DataService {
       {
         id: 3,
         title: ['Web', 'Development'],
-        imagePath: "assets/servicesBg/web.png",
+        imagePath: "assets/servicesBg/website.jpg",
         description: 'We offer single-tenant and multi-tenant SaaS application design and development from concept to completion. We have a dedicated team capable of transforming any high-level business idea into a fully functional SaaS application.',
         detailTitle: 'Web/SaaS application development ',
         detailPageDescription: 'Web Application development is our core service which complements all the other services we offer. We have expertise in developing full-stack web applications in various frontend and backend technologies. We offer the following services for Web application development',
@@ -526,7 +425,7 @@ export class DataService {
       {
         id: 4,
         title: ['Deployment', '& Automation'],
-        imagePath: "assets/servicesBg/deployment.png",
+        imagePath: "assets/servicesBg/datacenter.jpg",
         description: 'DevUnleash excels in automating your development and deployment needs. We can set up the complete infrastructure for your deployment models on the cloud and on-premise and automate it with the latest CI/CD techniques.',
         detailTitle: 'Deployment and Automation',
         detailPageDescription: 'We tackle all the deployment needs of our customers. We design the complete deployment infrastructure with both the single A-Z and multi A-Z topologies for high availability in multiple zones. We have expertise in scaling solutions horizontally for better throughput and optimal performance. We adhere to the 12-factor application development paradigm to leverage the inherent scalability of the platforms. ',
@@ -598,7 +497,7 @@ export class DataService {
       {
         id: 5,
         title: ['Testing', ' and QA'],
-        imagePath: "assets/servicesBg/testing.png",
+        imagePath: "assets/servicesBg/testing.jpg",
         description: 'We offer services for load testing on various metrics, security vulnerability testing and E2E functional testing. We also give performance optimization support and vulnerability removal consultation. ',
         detailTitle: 'Testing and Quality issurance',
         detailPageDescription: 'Testing goes hand in hand with any sort of software development. To ensure the production-grade quality of any application, it must go through rigorous testing from various perspectives. We offer our services for automated testing of the following types',
@@ -630,46 +529,11 @@ export class DataService {
           { titles: 'E2E Functional Testing', featureImg: '', detail: [{ point: 'We automate the end-to-end functional tests to incorporate them in the CI/CD pipeline. We have expertise in writing automated test cases with Selenium (general purpose), Protractor (For Angular), Cypress (for React) and Detox (for react-native). These tests ensure the proper functionality and off-load any manual testing effort which is inherently error-prone. ' }] },
         ],
       },
-      {
-        id: 6,
-        title: ['Data', 'Analysis'],
-        imagePath: "assets/servicesBg/data.png",
-        description: 'Data analysis gives you insight into the business domain and helps minimize the risk of any chance-based decision. Business Intelligence, in general, proves to be a very useful tool for crucial business decisions. We offer our services for data modeling, data cleansing, data analytics, and data visualization for deeper business insights. ',
-        detailTitle: 'Data Analytics and Business Intelligence',
-        detailPageDescription: 'We have experience working with PowerBI reports and custom graphing libraries in Javascript and python. We can devise custom visualizations in new applications as well as PowerBI reports. Our Deep Learning skills also go hand-in-hand with our data analytics skills and enable us to provide meaningful prospective and retrospective data analytics.',
-        keyfeatureHadding: '',
-        keyfeatures: '',
-        keyfeatureslist: [
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-        ], howWedo: '',
-        detailFeatures: [],
-      },
-      {
-        id: 7,
-        title: ['Machine', 'Learning & AI'],
-        imagePath: "assets/servicesBg/machine.png",
-        description: 'Due to the dynamic nature of the ML domain, it is really important to stay up to date with the latest trends to stay relevant to the domain. We’ve been exploring the latest AI developments in the fields of image processing and natural language processing over the years and developing solutions to cater to modern needs with the latest research in the field.',
-        detailTitle: 'Machine Learning and Artifical Intelligence',
-        detailPageDescription: 'Due to the dynamic nature of the ML domain, it is really important to stay up to date with the latest trends to stay relevant to the domain. We’ve been exploring the latest AI developments in the fields of image processing and natural language processing over the years and developing solutions to cater to modern needs with the latest research in the field. We offer our services in the following subdomains of AI',
-        keyfeatureHadding: '',
-        keyfeatures: '',
-        keyfeatureslist: [
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-        ], howWedo: '',
-        detailFeatures: [
-          { titles: 'Prospective Analysis / Forecasting', featureImg: '', detail: [{ point: 'Forecasting and prospective analysis of data using Machine learning and deep learning algorithms have proved to be very useful for crucial business decisions. Whether you want to invest in some stocks or want to predict the maintenance time of your equipment to ensure minimal downtime, forecasting would definitely assist you to these ends. We offer a predictive analysis of your data with cutting edge deep learning algorithms to dictate your chance-based business needs. ' }] },
-          { titles: 'Chatbots and Natural Language Processing', featureImg: '', detail: [{ point: 'The field of NLP has seen strides of success in recent years. Machines are getting more comfortable and confident with the natural language. Employing the NLP techniques in your business can enhance the user experience of your applications. Specifically, in the field of customer care, you can really make an impact with cutting edge NLP algorithms and chatbots. We have experience with developing Level 3 and Level 4 chat assistants to increase your customer satisfaction.' }] },
-          { titles: 'Image processing', featureImg: '', detail: [{ point: 'We use deep learning algorithms (CNN + RNN) for image processing and to devise the visual intelligence of machines. We can cater to any of your requirements related to image processing.' }] },
-        ],
-      },
+    
       {
         id: 8,
         title: ['UI/UX', ' Design'],
-        imagePath: "assets/servicesBg/uiux.png",
+        imagePath: "assets/servicesBg/uxdesign.jpg",
         description: 'We provide top-notch UI/UX development services. Get an eye-catching look and feel for your solutions, increase your user interaction and drive sales.',
         detailTitle: 'UI/ UX Design',
         detailPageDescription: 'Creating behavioral user experience is a key to satisfied customers and hence increased adoption of your product. Our UX team caters to all your design needs by researching your business domain and creating specific designs that can fulfill your users business niche with minimum interaction. We excel in designing your abstract ideas onto the screen with the best possible user journey.',
@@ -689,7 +553,7 @@ export class DataService {
       {
         id: 9,
         title: ['Project', 'Management'],
-        imagePath: "assets/servicesBg/project.png",
+        imagePath: "assets/servicesBg/mangment.jpg",
         description: 'No matter whether it is a complex solution implementation, a data migration, application integration, or another technology project, DevUnleash project management services deliver the results you aim for.',
         detailTitle: 'Project Management',
         detailPageDescription: 'In every project, we assemble all contributors and business owners and set up an effective environment for collaboration. Clear and frequent communication and alignment on roles and responsibilities are the key to the success of each project and minimize risks and costs.',
@@ -706,26 +570,7 @@ export class DataService {
           { titles: 'Image processing', featureImg: '', detail: [{ point: 'We use deep learning algorithms (CNN + RNN) for image processing and to devise the visual intelligence of machines. We can cater to any of your requirements related to image processing.' }] },
         ],
       },
-      {
-        id: 10,
-        title: ['Digital', 'Marketing'],
-        imagePath: "assets/servicesBg/marketing.png",
-        description: 'We provide more than just high volume traffic. You’ll get more ROI, more accountability and transparency of the marketing gains you are getting. We’ll fulfill the expectations you have about your venture and envision a future with maximum Return On Investment.',
-        detailTitle: 'Digital Marketing',
-        detailPageDescription: "It’s never been easy to reach your target audience with digital marketing. You can instantly click a billion users' industry as your target audience. More than four and a half billion consumers use the internet worldwide and make a perfect sample group for targetted advertising.",
-        keyfeatureHadding: '',
-        keyfeatures: '',
-        keyfeatureslist: [
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-          { title: '', icon: 'assets/icons/segments/icon-account-710637b2fd56e67b3ba6b3d9d1b06ae331a5f4bac3c67305be8e9ba611cf20b1.svg' },
-        ], howWedo: '',
-        detailFeatures: [
-          { titles: 'Social Media Marketing', featureImg: '', detail: [{ point: 'We provide social media marketing for Facebook, Linkedin, and Google. Advertisement costs on these platforms vary, but all of the platforms have a flexible pay-as-you-use pricing strategy which goes a long way for marketing budget management. We have the expertise to prioritize your ads on these platforms with better content.' }] },
-          { titles: 'Search Engine Optimization', featureImg: '', detail: [{ point: 'Search Engine Optimization (SEO) is a technique widely hailed in the software industry to gain more popularity in a search engine. This is a one-time marketing investment that gives you continuous and long term benefits. Our SEO services can be employed with our other marketing techniques to get the best possible outcome for your marketing requirements.' }] },
-          { titles: 'Content Marketing', featureImg: '', detail: [{ point: 'Writing the right content on your website is as crucial as having a website in the first place. A website with menial content can only incur your cost without any substantial gains. Our content writers ensure that you keep on getting new traffic consistently. Each visit your site can turn into a potential customer with the right content on it.' }] },
-        ],
-      },
+    
     ]
   }
 
