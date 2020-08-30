@@ -1,20 +1,11 @@
-<div class="bg-link main-font offerText p-t-5 p-b-5 text-center pointer"(click)="routeto('/newsFeed')"> 
- <div *ngIf="!text">
-   A helping hand from <span class="capitaliz-text p-l-2 p-r-2">devunleash</span>, see how we are responding to COVID-19
-  </div>
-  <div *ngIf="text">
-    {{text}}
-  </div>
 
-</div>
 <div class="smallnodisplay p-t-30 p-b-30 bg-color display-flex align-items-center devheader content-right">
   <div class="navLink m-l-15 m-r-15" [ngClass]="{'activate': type === 'home'}" (click)="routeto('/home')">Home</div>
-  <div class="navLink m-l-15 m-r-15" [ngClass]="{'activate': type === 'works'}" (click)="routeto('/works')">Works</div>
-  <div class="navLink m-l-15 m-r-15" [ngClass]="{'activate': type === 'technology'}" (click)="routeto('/technologies')">
+<div class="navLink m-l-15 m-r-15" [ngClass]="{'activate': type === 'technology'}" (click)="routeto('/technologies')">
     technologies</div>
   <div class="navLink m-l-15 m-r-15" [ngClass]="{'activate': type === 'service'}" (click)="routeto('/services')">
     services</div>
-  <div class="navLink m-l-15 m-r-15" [ngClass]="{'activate': type === 'about'}" (click)="routeto('/about')">Comapany
+  <div class="navLink m-l-15 m-r-15" [ngClass]="{'activate': type === 'about'}" (click)="routeto('/about')">
   </div>
   <div class="contactUs navLink" [ngClass]="{'contactActive': type === 'contact'}" (click)="routeto('/contact')">contact
     US</div>
@@ -31,3 +22,4 @@
   <div class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/about')">Comapany</div>
   <div class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/contact')"> Contact Us</div>
 </div>
+

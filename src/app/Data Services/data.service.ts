@@ -76,113 +76,49 @@ export class DataService {
   ////////////////////////////////////////////////////////////////////////
 
   workPage = {
+    homeItem:[
+      {  
+        id: 0,
+        title: 'Web Technologies ',
+         description: 'In this mordern days we provide you best technologies in web and android development .These mordern techs helps you achieve your goal in less time and with secure gatways.',
+         imagePath: 'assets/portfolio/logo.jpg',
+           },
+    ],
     workitems: [
       {  
         id: 0,
-        title: 'TradeUnleashed',
-        description: 'Supply chain platform for manufacturers, distributors & retailers.',
-        detailPage: 'TradeUnleashed wanted to automate its supply chain by connecting all their trade partners and team on single platform. We helped design & build a platform that provides all stake holders with real-time information access & enables on-the-go decision making.',
-        imagePath: 'assets/portfolio/work3.jpg',
-        themeColor: '',
-        proServices: ['SupplyChain', 'Web', 'iOS', 'Android'],
-        titlephoto: 'assets/portfolio/tu.png',
-        needText: 'The Need',
-        needParagraph:
-          ['A big manufacturer company wanted to develop a supply chain platform where they can connect to their trade partners and sales team in real-time and exchange business and transaction information on-the-go. With real-time information access, on-the-go decision making and control and visibility across supply entire supply chain, they would be able to increase business efficiency and reduce loss & leakage', 'Every person in the team would have access to up-to-date real-time information on his finger-tips for on-the-go decision making, better stock management and sales automation. It would avoid delays, reduce leakage and increase business efficiency.'],
-        solutiontitle: 'WHICH BUSINESSES IT HELPS',
-        solitem: [{
-          img: 'assets/portfolio/work4.jpg',
-          title: '', details:  
-            [
-              'Help manufacturers keep track of their inventories, sales and payment recoveries across their trade partners in real-time. Help reduce inventory cost, reduce wastage, increase sales and eliminate the cost and headache of manual operation. ',
-              'Help manufacturers and distributors keep track of their team’s performance and activities in real-time.',
-              'Help field sales staff perform effectively on the field with access to update-to-date information on their finger-tips',
-              'Help distributors share transaction informations with their manufacturer and sourcing of inventories.',
-              'Help top level management and business owners drive better business decisions with advanced reporting and intelligence across all business aspects.'
-            ]
-        }],
-        methodologyTitle: 'HOW WE BUILT THE SYSTEM',
-        methodologyParagraph: ['Our product design and development team worked closely with the client to ensure we thoroughly understand their business needs and objectives. Based on their requirements, we designed & built the system compromising these components & tools.'],
-        methodology: ['Back office web application', 'Mobile application for field operations', 'Mobile app for advanced reporting and business intelligence', 'B2B e-commerce and marketplace platform'],
-        moreSection: [
-          {
-            tittle: 'BACK OFFICE WEB APPLICATION', imgPath: 'assets/portfolio/tuportfolio.png', desc: [
-              'Back office web application is used to centrally manage supply chain operations with end-to-end control and visibility. It’s single page application built over APIs with offline first capability for better user experience and reduced bandwidth usage.',
-              'Back office allows adding users with different roles and permissions. That’s where users can manage and keep track of their inventories, sale orders, purchase orders, customer and supplier relationships, invoices, payments, reporting and much more.']
-          },
-          {
-            tittle: 'MOBILE APP', imgPath: 'assets/portfolio/tuportfolio2.png', desc: [
-              'Mobile app is used by the field staff to punch all their activities and transactions directly in the system instead of manual paper work. Also, they have access to the update information on product, pricing, inventory levels, customers to perform better on the field.']
-          },
-        ],
-
-        furtherMoreTittle: 'UX Design Challenges',
-        furtherMore: [
-          { desc: 'Our team truly understands the value a good UI/UX plays in the success of a product. We faced an interesting challenge in front as we strove to build a large and scalable platform that would automate and digitise complex supply chain operations for different type of businesses involved and platforms. We wanted to make sure system is easily navigable and all information is visible to user in clean and optimised way.', imagePath: 'assets/portfolio/tu.png' },
-          { desc: 'Our team truly understands the value a good UI/UX plays in the success of a product. We faced an interesting challenge in front as we strove to build a large and scalable platform that would automate and digitise complex supply chain operations for different type of businesses involved and platforms. We wanted to make sure system is easily navigable and all information is visible to user in clean and optimised way.', imagePath: 'assets/portfolio/tuportfolio1.png' },
-          { desc: 'Our team truly understands the value a good UI/UX plays in the success of a product. We faced an interesting challenge in front as we strove to build a large and scalable platform that would automate and digitise complex supply chain operations for different type of businesses involved and platforms. We wanted to make sure system is easily navigable and all information is visible to user in clean and optimised way.', imagePath: 'assets/portfolio/tuportfolio3.png' },
-        ],
-        tech: 'NativeScript',
-        techlogo: 'assets/content/work_cases/nstu.png',
-        portfolioimage1: 'assets/content/work_cases/tuportfolio4.png',
-        portfolioimage2: 'assets/content/work_cases/tuportfolio3.png',
-      },
+        title: 'Web Designing ',
+        description: 'We are providing you Web design that refers to the best websites. It gives you user experience that you never feel before.We provide you most realistic designs',
+      imagePath: 'assets/portfolio/portfolio4.jpg',
+           },
       {
         id: 1,
-        title: 'HireGoat',
-        description: 'Next generation video based recruitment platform',
-        imagePath: 'assets/portfolio/work2.jpg',
-        themeColor: '#90b534',
-        detailPage: 'HireGoat wanted to develop a platform to eliminate recruitment overhead and replace boring / ineffective CVs with video based system where smiles & personality count first. We created two apps - for hiring company and for candidates - to simplify and speed up recruiting.',
-        proServices: ['Recruitment', 'iOS', 'Android'],
-        titlephoto: 'assets/portfolio/fhportfolio.png',
-        needText: 'The Need',
-        needParagraph:
-          ['Movingful is a marketplace where customers can book their moves online with intuitive and automated flows for different types of move bookings. The aim of the platform is to increase sale bookings and offload call-centre agents by replacing their manual work with automated flow in place.', 'Part of suite is also a commission management app that lets sponsors, ambassadors and agents share moves through the system and manage their sales commission and status of their bookings in real-time. They can further share their profit down their sub-agents and earn well while increasing sales booking for the company.'],
-        solutiontitle: 'One Solution, Two Products',
-        solitem: [
-          {
-            img: 'http://tirthainfotech.com/wp-content/uploads/2019/10/mobile-application.png',
-            title: 'For Recruiters', details:
-              [
-                'Job management ',
-                'Applicants tracking ',
-                'Online Interview Scheduling',
-                'The Recruiter app would allow hiring teams to publish jobs for single or multiple office locations. Those jobs are matched to candidates based on their profiles. When candidates apply, recruiter gets leads in real-time. Recruiter can process leads, move it through different statuses and have interview on spot whenever both parties are available.'
-              ]
-          },
-          {
-            img: 'http://tirthainfotech.com/wp-content/uploads/2019/10/mobile-application.png',
-            title: 'For Candidates', details:
-              [
-                'Online & real-time job matching ',
-                'Real-time notification on applied jobs ',
-                'Offline, online & invisible work modes',
-                'Online face-to-face conversation',
-                'It allows candidate to manage their online profile and browser through matching jobs on the system easily. Candidate can apply to jobs , receive real-time notifications from recruiters on applied jobs and appear for face-to-face conversation anytime from the comfort of their home.'
-              ]
-          }
-        ],
-
-        methodologyTitle: 'HOW WE BUILT THE SYSTEM',
-        methodologyParagraph: ['Our product design and development team worked closely with the client to ensure we thoroughly understand their business needs and objectives. Based on their requirements, we designed & built the system compromising these components & tools.'],
-        methodology: '',
-        moreSection: [
-          // { tittle: '', imgPath: '', desc:[''] },
-          // { tittle: '', imgPath: '', desc:[''] },
-          // { tittle: '', imgPath: '', desc:[''] },
-        ],
-        furtherMoreTittle: 'UX Design Challenges',
-        furtherMore: [
-          { desc: 'Our team truly understands the value a good UI/UX plays in the success of a product. We faced an interesting challenge in front as we strove to build a large and scalable platform that would automate and digitise complex supply chain operations for different type of businesses involved and platforms. We wanted to make sure system is easily navigable and all information is visible to user in clean and optimised way.', imagePath: 'http://tirthainfotech.com/wp-content/uploads/2019/10/mobile-application.png' },
-        ],
-        tech: 'React Native',
-        techlogo: 'assets/content/work_cases/clean-up/react-native-logo@2x-ab2c22364cf8131b683d5fe86bb396c0b046afb812add95e35a4781b77075d33.png',
-        portfolioimage1: 'assets/content/work_cases/fhportfolio.png',
-        portfolioimage2: 'assets/content/work_cases/fhportfolio1.png',
+        title: 'Web Technologies',
+        description: 'In this mordern days we provide you best technologies in web and android development .These mordern techs helps you achieve your goal in less time and with secure gatways.',
+        imagePath: 'assets/portfolio/portfolio1.jpg',
+      
       },
-     
-
+      {
+        id: 2,
+        title: 'Graphic Designing',
+        description: 'We provide designs that helps you visual communicate and solving problems through the use of typography, photography, iconography and illustration. ',
+        imagePath: 'assets/portfolio/portfolio5.jpg',
+        themeColor: '#90b534',
+       },
+      {
+        id: 3,
+        title: 'App Development',
+        description: 'App is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. ... As part of the development process, mobile user interface (UI) design is also essential in the creation of mobile apps',
+        imagePath: 'assets/portfolio/android.jpg',
+        themeColor: '#90b534',
+             },
+      {
+        id: 4,
+        title: 'Point of Sales',
+        description: 'We have our own Point of sales storage where we keep all your information secure and keep our sales on top',
+        imagePath: 'assets/portfolio/portfolio6.jpg',
+        themeColor: '#90b534',
+         },
     ],
     morewrkingPage: [
       {
@@ -242,7 +178,7 @@ export class DataService {
   technology = {
     headerSection: {
       tittle: "Web and Mobile",
-      description: "You don’t need to work with multiple teams, we provide complete end-to-end services from brainstorming business requirements, designing clean & world-class UIs/UX, architecting large scale enterprise grade applications, developing clean & high quality codebase, performing rigorous automated & manual testing, continuous deployment & maintenance.",
+      description: "Tech Hatcher provide you both web and Mobile Techs.We provide mordern ,fast,secure techs .",
       detailPage: ''
     },
     availtechstack: [
@@ -330,28 +266,7 @@ export class DataService {
         
         ],
       },
-      {
-        id: 2,
-        title: 'Deployement',
-        subTitle: [
-          {
-            title: 'Deployment',
-
-            technologies: [
-              { title: 'AWS', icon: 'assets/techIcon/aws.png' },
-              { title: 'GCP', icon: 'assets/techIcon/gcp.png' },
-              { title: 'Docker', icon: 'assets/techIcon/docker.png' },
-              { title: 'Kubernetes', icon: 'assets/techIcon/kubernets.png' },
-              // { title: 'Openshift', icon: '' },
-              // { title: 'Linux and windows', icon: '' },
-            ]
-          },
-
-        
-
-
-        ],
-      },
+  
     ]
   }
 

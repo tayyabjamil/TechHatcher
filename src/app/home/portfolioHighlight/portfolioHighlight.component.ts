@@ -37,7 +37,14 @@ export class PortfolioHightlightComponent implements OnInit {
       console.log('animated in', detail);
       this.animationClass = 'mf-color-animation'
     });
-
+    document.addEventListener('aos:in:portfolio3', ({ detail }: any) => {
+      console.log('animated in', detail);
+      this.animationClass = 'mf-color-animation'
+    });
+    document.addEventListener('aos:in:portfolio4', ({ detail }: any) => {
+      console.log('animated in', detail);
+      this.animationClass = 'mf-color-animation'
+    });
   }
   routetoDetail(item) {
     this.router.navigate(['work'] , { queryParams: { item } });

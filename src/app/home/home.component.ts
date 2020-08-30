@@ -23,7 +23,7 @@ animation = 'tu-color-animation'
     this.heading = this.data.headerSection.tittle;
     this.description = this.data.headerSection.description;
     this.workings = this.dataService.workPage;
-    this.workhome = this.workings.workItems[0]
+    
 
   }
 
