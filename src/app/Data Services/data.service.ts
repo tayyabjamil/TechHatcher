@@ -175,6 +175,7 @@ export class DataService {
   ////////////////////////Technology Page Data////////////////////////////
   ////////////////////////////////////////////////////////////////////////
 
+  
   technology = {
     headerSection: {
       tittle: "Web and Mobile",
@@ -272,6 +273,92 @@ export class DataService {
 
 
 
+  
+  POS = {
+    headerSection: {
+      tittle: "Web and Mobile",
+      description: "Tech Hatcher provide you both web and Mobile Techs.We provide mordern ,fast,secure techs .",
+      detailPage: ''
+    },
+    availtechstack: [
+      {
+        // title: 'Web',
+        imagePath: 'assets/techLogos/POS1.jpg',
+      },
+
+      {
+        // title: 'Android',
+        imagePath: 'assets/techLogos/POS4.jpg',
+      },
+      {
+        // title: 'IOS',
+        imagePath: 'assets/techLogos/POS6.jpg',
+      },
+    
+    ],
+    technologyItems: [
+      {
+        id: 0,
+        title: 'Mobile',
+        subTitle: [
+          {
+            title: 'Android',
+            technologies: [
+              { title: 'kotlin', icon: 'assets/techIcon/kotlin.svg' },
+              { title: 'JavaScript', icon: 'assets/techIcon/java.png' },
+              { title: 'NativeScript', icon: 'assets/techIcon/nativescript.png' },
+            ]
+          },
+          {
+            title: 'IOS', technologies: [
+              { title: 'Swift', icon: 'assets/techIcon/swift.svg' },
+              { title: 'ReactNatvie', icon: 'assets/techIcon/reactnative.png' },
+              { title: 'NativeScript', icon: 'assets/techIcon/nativescript.png' },
+            ]
+          }
+        ],
+      },
+
+      {
+        id: 1,
+        title: 'Web',
+        subTitle: [
+          {
+            title: 'FrontEnd',
+            technologies: [
+              { title: 'JavaScript', icon: 'assets/techIcon/java-script.png' },
+              { title: 'TypeScript', icon: 'assets/techIcon/type-script.svg' },
+              { title: 'HTML5', icon: 'assets/techIcon/html-icon.png' },
+              { title: 'CSS3', icon: 'assets/techIcon/css-icon.png' },
+              { title: 'Angular', icon: 'assets/techIcon/angular-icon.png' },
+              { title: 'React', icon: 'assets/techIcon/reactnative.png' },
+            ]
+          },
+          {
+            title: 'BackEnd',
+            technologies: [
+              { title: 'Node JS', icon: 'assets/techIcon/node.png' },
+              { title: 'Groovy/Grails', icon: 'assets/techIcon/rails.png' },
+
+            ]
+          },
+          {
+            title: 'DataBase',
+            technologies: [
+              { title: 'MySQL', icon: 'assets/techIcon/mysql.png' },
+              { title: 'MSSQL', icon: 'assets/techIcon/mssql.png' },
+              { title: 'PostgreSQL', icon: 'assets/techIcon/postgresql.png' },
+              { title: 'MongoDB', icon: 'assets/techIcon/mongo.png' },
+            ]
+          },
+        
+        ],
+      },
+  
+    ]
+  }
+
+
 
   ////////////////////////////////////////////////////////////////////////
   //////////////////////////Service Page Data/////////////////////////////
@@ -316,7 +403,7 @@ export class DataService {
       {
         id: 3,
         title: ['Web', 'Development'],
-        imagePath: "assets/servicesBg/website.jpg",
+        imagePath: "assets/servicesBg/web.jpg",
         description: 'We offer single-tenant and multi-tenant SaaS application design and development from concept to completion. We have a dedicated team capable of transforming any high-level business idea into a fully functional SaaS application.',
         detailTitle: 'Web/SaaS application development ',
         detailPageDescription: 'Web Application development is our core service which complements all the other services we offer. We have expertise in developing full-stack web applications in various frontend and backend technologies. We offer the following services for Web application development',
@@ -339,7 +426,7 @@ export class DataService {
 
       {
         id: 4,
-        title: ['Deployment', '& Automation'],
+        title: ['Deployment'],
         imagePath: "assets/servicesBg/datacenter.jpg",
         description: 'DevUnleash excels in automating your development and deployment needs. We can set up the complete infrastructure for your deployment models on the cloud and on-premise and automate it with the latest CI/CD techniques.',
         detailTitle: 'Deployment and Automation',
@@ -448,7 +535,7 @@ export class DataService {
       {
         id: 8,
         title: ['UI/UX', ' Design'],
-        imagePath: "assets/servicesBg/uxdesign.jpg",
+        imagePath: "assets/servicesBg/design.jpg",
         description: 'We provide top-notch UI/UX development services. Get an eye-catching look and feel for your solutions, increase your user interaction and drive sales.',
         detailTitle: 'UI/ UX Design',
         detailPageDescription: 'Creating behavioral user experience is a key to satisfied customers and hence increased adoption of your product. Our UX team caters to all your design needs by researching your business domain and creating specific designs that can fulfill your users business niche with minimum interaction. We excel in designing your abstract ideas onto the screen with the best possible user journey.',

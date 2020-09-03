@@ -26,5 +26,7 @@ animation = 'tu-color-animation'
     
 
   }
-
+  routetopage(page){
+    this.router.navigate([page]);
+  }
 }

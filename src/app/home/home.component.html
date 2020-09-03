@@ -1,29 +1,30 @@
 <app-header></app-header>
-<div  style="padding-top: 12%;padding-left: 2%;">
-<div>
- <div class="smallnodisplay" *ngFor="let item of workings?.homeItem; let i = index">
-  
-    <div class="row p-t-15 " data-aos="fade-down-left" data-aos-once="true" data-aos-easing="linear" data-aos-duration="900" *ngIf="i % 2 == 0">
-      <div class="col-lg-5">
-        <h2 style="padding-left: 5%;padding-top: 7%;" data-aos="zoom-in" data-aos-once="true" data-aos-easing="linear" data-aos-duration="3=00">Tech Heatcher <br> <span class="p-l-250"> We are here for you </span></h2>
-  
-      </div>
-      <div class="col-lg-6 pointer workBoxSize" (click)="routeto(item.title)"
-        [ngStyle]="{'background-color': item?.themeColor }">
-        <div class="portfolioimg">
+<div style="background-color: black;padding-top: 3%;padding-bottom: 3%;">
+  <div>
+    <div class="smallnodisplay" *ngFor="let item of workings?.homeItem; let i = index">
+
+      <div class="row" data-aos="fade-down-right" data-aos-once="true" data-aos-easing="linear" data-aos-duration="900"
+        *ngIf="i % 2 == 0">
+        <div class="col-lg-3">
+
+        </div>
+        <div class="col-lg-6 ointer workBoxSize" (click)="routeto(item.title)"
+          [ngStyle]="{'background-color': item?.themeColor }">
+          <div class="portfolioimg">
             <img class="portfolioimg" [src]='item?.imagePath'>
+          </div>
+        </div>
+        <div style="background-color: black;" class="col-lg-3">
+
         </div>
       </div>
     </div>
   </div>
 
-  
-</div>
-  
 </div>
 
 
-<div class="section text-center anchor1">
+<div style="background-color: black;" class="section text-center anchor1">
   <div data-aos="zoom-in-up" data-aos-once="true" data-aos-easing="ease-out">
   </div>
 
@@ -31,31 +32,28 @@
     <div class="col-lg-4 center-align text-center  p-t-70 p-b-70" *ngFor="let item of data?.techItem; index as i">
       <img class="imgheight" data-aos="zoom-in-up" data-aos-once="true" data-aos-easing="ease-out" data-aos-offset="500"
         data-aos-duration="700" data-aos-anchor=".anchor1" [src]='item.imagePath'>
-      <div class="tittle p-t-30 p-b-30" data-aos="zoom-in-up" data-aos-once="true" data-aos-easing="ease-out"
-        data-aos-offset="500" data-aos-duration="700" data-aos-anchor=".anchor1">{{item.title}}</div>
+      <div style="color:#90b534" class="tittle p-t-30 p-b-30" data-aos="zoom-in-up" data-aos-once="true"
+        data-aos-easing="ease-out" data-aos-offset="500" data-aos-duration="700" data-aos-anchor=".anchor1">
+        {{item.title}}</div>
     </div>
   </div>
 
- 
-</div>  
 
- <app-headingDesc heading='Check out more TechHatcher '
-    description='We are here to help in range of industries.'
-  >
-  </app-headingDesc>
+</div>
+
+<app-headingDesc style="background-color: black;" heading='Check out more TechHatcher '
+  description='We are here to help in range of industries.'>
+</app-headingDesc>
 
 <app-portfolio-highlight animationClass="tu-color-animation"></app-portfolio-highlight>
 
-<div class="p-t-30 p-b-100">
- </div>
-<div class="section text-center .other-element1">
-  
-</div>
-<div >
-  <app-headingDesc bgprime=true button='Drop Us A Message' (click)="routetopage('/contact')"
-    heading='Lets connect and help?'
-    description='Tell us about your business needs and problems. We will apply our diverse expertise to craft the best solution for your needs.'>
-  </app-headingDesc>
-  <img style="width: 100%;height: 100%;" class="techimgheight" data-aos="fade-up" data-aos-easing="linear" data-aos-once="true" data-aos-duration="900" src='assets/techLogos/footer.jpg'>
-   
+<div>
+  <div  style="background-color: black;"  class="p-b-60">
+    <app-headingDesc button='Contact Us' bgprime=true (click)="routetopage('/contact')"
+      heading='Need to solve a Problem?' description='Tell us about your needs and challenges. We&#39;ll apply our broad-ranging expertise to develop the perfect solution
+    for your business.'></app-headingDesc>
+  </div>
+  <img style="width: 100%;height: 100%;" class="techimgheight" data-aos="fade-up" data-aos-easing="linear"
+    data-aos-once="true" data-aos-duration="900" src='assets/techLogos/footer.jpg'>
+
 </div>

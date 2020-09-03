@@ -9,10 +9,12 @@ import { DataService } from '../Data Services/data.service';
 })
 export class AboutComponent implements OnInit {
   companyProfile;
+  data;
   constructor(private router: Router, private dataService: DataService) { }
 
   ngOnInit() {
     this.companyProfile = this.dataService.company;
+    this.data = this.dataService.POS;
   }
   routetopage(page) {
     this.router.navigate([page]);
