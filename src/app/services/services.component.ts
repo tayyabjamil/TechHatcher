@@ -22,7 +22,7 @@ export class ServicesComponent implements OnInit {
   }
   routeToServices(item) {
     this.router.navigate(['/service'], { queryParams: { page: item.id } });
-    window.scrollTo(0, 0);
+  
 
   }
   routetopage(page){

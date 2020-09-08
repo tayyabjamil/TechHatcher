@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { DataService } from '../Data Services/data.service';
 
 @Component({
   selector: 'app-contact',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router, private dataService: DataService) { }
 
   ngOnInit() {
+  }
+  routeToServices(item) {
+    this.router.navigate(['/service'], { queryParams: { page: item.id } });
+ 
+
+  }
+  routetopage(page){
+    this.router.navigate([page]);
+    window.scrollTo(0, 0);
   }
 
 }

@@ -1,5 +1,5 @@
 <app-header></app-header>
-<div style="background-color: black;padding-top: 3%;padding-bottom: 3%;">
+<div style="background-color: black;margin-top: 15%;padding-bottom: 3%;">
   <div>
     <div class="smallnodisplay" *ngFor="let item of workings?.homeItem; let i = index">
 
@@ -8,7 +8,7 @@
         <div class="col-lg-3">
 
         </div>
-        <div class="col-lg-6 ointer workBoxSize" (click)="routeto(item.title)"
+        <div class="col-lg-6 ointer workBoxSize" (click)="routetopage(item.title)"
           [ngStyle]="{'background-color': item?.themeColor }">
           <div class="portfolioimg">
             <img class="responsive" [src]='item?.imagePath'>

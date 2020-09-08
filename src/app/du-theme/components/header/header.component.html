@@ -11,15 +11,15 @@
   <div  class="contactUs navLink" [ngClass]="{'contactActive': type === 'contact'}" (click)="routeto('/contact')">contact
     US</div>
 </div>
-<div  style="background-color: black;"  class="bignodisplay posright" (click)="draweropen=!draweropen">
+<div  style="background-color: black;margin-bottom: 10%;"  class="bignodisplay posright" (click)="draweropen=!draweropen">
   <span class="material-icons f-27"> menu </span>
 </div>
 <div style="background-color: black;"  *ngIf="draweropen" data-aos="fade-down-right" data-aos-once="true" data-aos-easing="fade-up-left"
   data-aos-duration="600" class="width100  posright2 bg-sec-light">
   <div  class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/home')">Home</div>
-
+  <div  class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/works')">Works </div>
   <div  class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/technologies')">Technologies</div>
   <div  class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/services')">Services</div>
-  <div  class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/about')">POS</div>
+  <div  class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/about')">POSs</div>
   <div  class="p-t-20 p-b-20 f-16 main-font f-200 text-center" (click)="routeto('/contact')"> Contact Us</div>
 </div>

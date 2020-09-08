@@ -16,9 +16,13 @@ export class AboutComponent implements OnInit {
     this.companyProfile = this.dataService.company;
     this.data = this.dataService.POS;
   }
-  routetopage(page) {
+  routeToServices(item) {
+    this.router.navigate(['/about'], { queryParams: { page: item.id } });
+
+
+  }
+  routetopage(page){
     this.router.navigate([page]);
     window.scrollTo(0, 0);
   }
-
 }
