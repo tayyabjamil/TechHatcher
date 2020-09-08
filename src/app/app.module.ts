@@ -6,13 +6,12 @@ import { ContactComponent } from './contact/contact.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { ServicesComponent } from './services/services.component';
 import { AboutComponent } from './about/about.component';
-import { WorksComponent } from './works/works.component';
-import { WorkDetailComponent } from './workDetail/workDetail.component';
+
 import { DuThemeModule } from './du-theme/du-theme.module';
-import { ServiceDetailComponent } from './serviceDetail/serviceDetail.component';
+
 import { AppComponent } from './app.component';
 import { PortfolioHightlightComponent } from './home/portfolioHighlight';
-import { NewsFeedComponent } from './newsFeed/newsFeed.component';
+
 
 @NgModule({
    declarations: [
@@ -22,11 +21,9 @@ import { NewsFeedComponent } from './newsFeed/newsFeed.component';
       TechnologiesComponent,
       ServicesComponent,
       AboutComponent,
-      WorksComponent,
-      WorkDetailComponent,
-      ServiceDetailComponent,
+
       PortfolioHightlightComponent,
-      NewsFeedComponent
+
    ],
    imports: [
       BrowserModule,
