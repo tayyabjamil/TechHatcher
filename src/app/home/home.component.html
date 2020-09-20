@@ -1,4 +1,7 @@
 <app-header ></app-header>
+<div  class="fb-customerchat"  style="height: 300px;"
+     page_id="111451823733281">
+</div>
 <div  style="height: 10%;background-color: black;padding-top: 10%;">
   <div>
     <div  *ngFor="let item of workings?.homeItem; let i = index">
@@ -6,7 +9,7 @@
       <div class="row" data-aos="fade-down-right" data-aos-once="true" data-aos-easing="linear" data-aos-duration="900"
         *ngIf="i % 2 == 0">
         <div class="col-2">
-
+  
         </div>
         <div class="col- 8 ointer workBoxSize" (click)="routetopage(item.title)"
           [ngStyle]="{'background-color': item?.themeColor }">

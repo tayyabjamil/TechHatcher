@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "techhatchersoftwarehouse"
+    "default": "techhatchersoftwarehouse",
+    "techHathcer": "techhatcherfinal",
+    "techhatcherfinal": "techhatcherfinal",
+    "project": "techhatcherfinal",
+    "fdas": "techhatcherfinal"
   }
 }

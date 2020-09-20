@@ -22,6 +22,7 @@
     "aos": "^3.0.0-beta.6",
     "bootstrap": "^4.4.1",
     "ng2-animate-on-scroll": "^2.0.0",
+    "ngx-facebook": "^3.0.0-0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

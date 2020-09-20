@@ -11,7 +11,7 @@ import { DuThemeModule } from './du-theme/du-theme.module';
 
 import { AppComponent } from './app.component';
 import { PortfolioHightlightComponent } from './home/portfolioHighlight';
-
+import { FacebookModule } from 'ngx-facebook';
 
 @NgModule({
    declarations: [
@@ -28,7 +28,9 @@ import { PortfolioHightlightComponent } from './home/portfolioHighlight';
    imports: [
       BrowserModule,
       AppRoutingModule,
-      DuThemeModule
+      DuThemeModule,
+      FacebookModule.forRoot()
+
    ],
    providers: [],
    bootstrap: [
